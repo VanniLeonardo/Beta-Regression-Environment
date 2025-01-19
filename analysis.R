@@ -327,7 +327,7 @@ fit_beta_regression <- function(data) {
 # Main execution
 main <- function() {
     setup_packages()
-    data <- load_data("Beta-Regression-Study-Environment/dataset.csv")
+    data <- load_data("dataset.csv")
 
     # Perform analyses
     dist_analysis <- analyze_gpa_distribution(data)
